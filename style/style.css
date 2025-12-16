@@ -1,0 +1,77 @@
+body {
+    background-color: #F6E9D7;
+    font-family: 'Lalezar';
+}
+.title,.thePar{
+color: #82562C;
+text-align: center;
+transform: scale(1);
+transition: all 1s ease;
+}
+.thePar {
+    font-size: 25px;
+}
+.title:hover,.thePar:hover{
+
+transform: scale(1.1);
+}
+.table {
+width: 100%;
+table-layout: fixed;
+border-radius: 25px;
+direction: rtl;
+border: 1;
+border-radius: 25px;
+font-size: 15px;
+
+}
+th {
+    font-size: 20px;
+}
+td {
+    text-align: center;
+}
+
+.even {
+    background-color: #6B4423;
+}
+.odd {
+    
+    background-color: #EFE4D2;
+}
+input {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: burlywood;
+    background-color: #F6E9D7;
+    
+}
+button {
+    font-family: 'Lalezar';
+    border-radius: 25px;
+    color: #F3F6F4;
+    background-color: #6A4A2F;
+    border-color: burlywood;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+button:hover {
+    transform: scale(1.1);
+}
+.marks {
+    background-color: floralwhite;
+    color: #82562C;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    direction: rtl;
+    border-radius: 25px;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(245, 199, 107);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+}

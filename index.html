@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="assets/icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+
+    <title>برنامج MPC</title>
+
+</head>
+<body>
+    <h1 class="title">MPC برنامج حساب المعدل<br>لشعبة علوم تجريبية ثانية ثانوي </h1>
+    <p class="thePar">اعداد زرنيخ محمد معتصم بالله <br> نادي البرمجة<br>و الابداع الرقمي</p>
+<table class="table" >
+    <tr class="even">
+<th>المادة</th>
+<th>الفرض</th>
+<th>التقويم</th>
+<th>اعمال <br> تطبيقية</th>
+<th>علامة <br> الاختبار<br>/20</th>
+<th>معدل <br> المادة</th>
+<th>معامل</th>
+</tr>
+<tr class="odd" >
+    <td>اللغة <br> العربية </td>
+    <td><input type="number" name="" id="fa" ></td>
+    <td><input type="number" name="" id="ta" ></td>
+    <td><input type="number" name="" id="pa" ></td>
+    <td><input type="number" name="" id="ea" ></td>
+    <td><input type="number" name="" id="ma" ></td>
+    <td><h2>2</h2></td>
+</tr>
+<tr class="even">
+    <td>علوم <br> الشريعة</td>    
+    <td><input type="number" name="" id="fs" ></td>
+    <td><input type="number" name="" id="ts" ></td>
+    <td><h1>❌</h1></td>
+    <td><input type="number" name="" id="es" ></td>
+    <td><input type="number" name="" id="ms" ></td>
+    <td><h2>2</h2></td>
+</tr>
+<tr class="odd">
+    <td>رياضيات</td>    
+    <td><input type="number" name="" id="fm"></td>
+    <td><input type="number" name="" id="tm"></td>
+    <td><h1>❌</h1></td>
+    <td><input type="number" name="" id="em" ></td>
+    <td><input type="number" name="" id="mm" ></td>
+    <td><h2>5</h2></td>
+</tr>
+<tr class="even">
+        <td>اللغة <br> الانجليزية</td>    
+    <td><input type="number" name="" id="fe" ></td>
+    <td><input type="number" name="" id="te" ></td>
+    <td><input type="number" name="" id="pe" ></td>
+    <td><input type="number" name="" id="ee" ></td>
+    <td><input type="number" name="" id="me" ></td>
+    <td><h2>2</h2></td>
+</tr>
+<tr class="odd">
+        <td>علوم <br> طبيعية</td>    
+    <td><input type="number" name="" id="fc" ></td>
+    <td><input type="number" name="" id="tc" ></td>
+    <td><input type="number" name="" id="pc" ></td>
+    <td><input type="number" name="" id="ec" ></td>
+    <td><input type="number" name="" id="mc" ></td>
+    <td><h2>6</h2></td>
+</tr>
+<tr class="even">
+    <td>اللغة <br> الفرنسية</td>    
+    <td><input type="number" name="" id="ff" ></td>
+    <td><input type="number" name="" id="tf" ></td>
+    <td><input type="number" name="" id="pf" ></td>
+    <td><input type="number" name="" id="ef" ></td>
+    <td><input type="number" name="" id="mf" ></td>
+    <td><h2>2</h2></td>
+</tr>
+<tr class="odd">
+        <td>تاريخ <br> و <br> جغرافيا</td>    
+    <td><input type="number" name="" id="fh" ></td>
+    <td><input type="number" name="" id="th" ></td>
+    <td><h1>❌</h1></td>
+    <td><input type="number" name="" id="eh" ></td>
+    <td><input type="number" name="" id="mh" ></td>
+    <td><h2>2</h2></td>
+</tr>
+<tr class="even">
+    <td>فيزياء </td>    
+    <td><input type="number" name="" id="fp" ></td>
+    <td><input type="number" name="" id="tp" ></td>
+    <td><input type="number" name="" id="pp" ></td>
+    <td><input type="number" name="" id="ep" ></td>
+    <td><input type="number" name="" id="mp" ></td>
+    <td><h2>5</h2></td>
+
+</tr>
+<tr class="odd">
+        <td>تربية <br> بدنية</td>    
+    <td><input type="number" name="" id="fo" ></td>
+    <td><input type="number" name="" id="to" ></td>
+    <td><h1>❌</h1></td>
+    <td><input type="number" name="" id="eo" ></td>
+    <td><input type="number" name="" id="mo" ></td>
+    <td><h2>1</h2></td>
+</tr>
+<tr class="even">
+    <td>المشاريع</td>
+    <td><input type="number" name="" id="theProjects"  placeholder="ادخل علامة "></td>
+    <td>تثمين <br> المطالعة</td>
+    <td><input type="number" name="" id="theBook" placeholder="ادخل علامة " ></td>
+    <td>مجموع <br>الكلي</td>
+    <td><input type="text" id="theTotal"></td>
+    <td><h2>27</h2></td>
+</tr>
+<tr class="odd">
+<td>اضغط <br> للحساب </td>
+<td><button onclick="calc()">حساب</button></td>
+<td>المعدل</td>
+<td><input type="text" name="" id="theTotalr" ></td>
+<td>الملاحظة</td>
+<td><h1 id="mark">...</h1></td>
+<th>ادخل علامة <br>المشاريع <br>و المطالعة</th>
+</tr>
+
+</table>
+<hr>
+<div class="marks">
+    <h2>
+        ملاحظات !:
+    </h2>
+    <ul >
+        <li>ادخل قيم ما بين 0 و 20 </li>
+        <li>اذا كانت علامة المشاريع  لا توجد  فادخل 10</li>
+        <li>اذا كانت علامة تقويم المطالعة لا توجد ادخل 10</li>
+        <li>لا تنسى اي قيمة و خاصة قيم تثمين المطالعة و المشاريع </li>        
+        <li>في حالة وجود فرضين اضف مجموع الفرضين قسمة اثنين </li>
+    </ul>
+    <h2>
+        معلومات :
+    </h2>
+    <p>
+        برنامج حساب معدل MPC طوره زرنيخ محمد معتصم بالله احد اعضاء نادي البرمجة و الابداع الرقمي ثانوية حاجي حسين
+        <br>
+        تمت برمجة البرنامج بواسطة لغات الhtml و css و java script
+        <br>
+        <font color = red>البرنامج محمي بشهادات قانونيةApache License </font>
+        <br>
+        يمنع نسب المشروع , او اخذ ملفاته دون ذكر صاحب رئيسي او قول انه برنامج مصدر مفتوح 
+        <br>
+        صلي على محمد ﷺ
+    </p>
+</div>
+<footer>
+    ثانوية حاجي حسين 
+    <br>
+    نادي البرمجة و الابداع الرقمي
+    <br>
+    اشراف
+    <br>
+    استاذة ميسي سوسن
+    <br>
+    العضوء
+    <br>
+    زرنيخ محمد معتصم بالله
+</footer>
+<script src="script/main.js"></script>
+</body>
+</html>
