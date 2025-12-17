@@ -2,6 +2,12 @@ body {
     background-color: #F6E9D7;
     font-family: 'Lalezar';
 }
+.theMMark {
+    color: #82562C;
+text-align: right;
+transform: scale(1);
+transition: all 1s ease;
+}
 .title,.thePar{
 color: #82562C;
 text-align: center;
@@ -11,7 +17,7 @@ transition: all 1s ease;
 .thePar {
     font-size: 25px;
 }
-.title:hover,.thePar:hover{
+.title:hover,.thePar:hover,.theMMark:hover{
 
 transform: scale(1.1);
 }
