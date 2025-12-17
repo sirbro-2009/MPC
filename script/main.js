@@ -88,8 +88,8 @@ function calc() {
 // total rate
 // العلب 
 let theTotalinput = $.getElementById("theTotal") // علبة المجموع
-let theProjectsn =parseFloat($.getElementById("theProjects").value)|| 0 //مشاريع
-let theBook = parseFloat($.getElementById("theBook").value)|| 0 // مطالعة
+let theProjectsn =parseFloat($.getElementById("theProjects").value)|| 10 //مشاريع
+let theBook = parseFloat($.getElementById("theBook").value)|| 10 // مطالعة
 let theTotarlinput = $.getElementById("theTotalr") // علبة المعدل 
 let theMark = $.getElementById("mark")
 let theCoefficient = $.getElementById("coefficient")
@@ -124,3 +124,4 @@ theMark.textContent = "راسب 💔"
 }
 
 }
+
